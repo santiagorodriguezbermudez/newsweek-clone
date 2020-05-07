@@ -1,8 +1,20 @@
 /* ------------------ All Document -------------------- */
-#main-container{
+#main-content{
   font-family: "Roboto Condensed", sans-serif;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 1310px;
 }
 
 
 
 /* ------------------ Navigation -------------------- */
+
+
+.custom-nav {
+  background-color: #f72210;
+}
+
+.nav-logo {
+  width: 30%;
+}
