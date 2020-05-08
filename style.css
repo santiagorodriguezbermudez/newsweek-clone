@@ -10,6 +10,7 @@
 /* ------------------ Navigation -------------------- */
 .custom-navbar-row-top {
   background-color: #f72210;
+  z-index: 1;
 }
 
 .custom-navbar-subscribe {
@@ -34,4 +35,12 @@
   text-decoration: none;
   font-weight: bold;
   color: black;
+}
+
+.custom-nav-detail {
+  position: relative;
+  bottom: 1.5rem;
+  z-index: 0;
+  /* margin-top: -1.5rem;
+  margin-right: -1.5rem; */
 }
