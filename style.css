@@ -57,3 +57,17 @@
 .custom-nav-bar-top-left {
   margin-right: -5rem;
 }
+
+.next {
+  float:right;
+}
+
+.nav-bar-mobile-links {
+  background-color: white;
+  font-weight: bold;
+}
+
+.mobile-nav-bar-search-input {
+  padding: 0;
+  border: none;
+}
