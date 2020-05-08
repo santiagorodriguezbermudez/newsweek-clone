@@ -8,10 +8,8 @@
 
 
 /* ------------------ Navigation -------------------- */
-.custom-nav {
+.custom-navbar-row-top {
   background-color: #f72210;
-  width: 100%;
-  box-sizing: border-box;
 }
 
 .custom-navbar-subscribe {
@@ -25,4 +23,15 @@
 
 .custom-navbar-toggler {
   border: none;
+}
+
+.custom-navbar-links-container {
+  background-color: white;
+  width:100%;
+}
+
+.navbar-link {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
 }
