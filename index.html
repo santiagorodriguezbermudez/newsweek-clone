@@ -18,11 +18,11 @@
 <body class="container-fluid main-content">
 
     <!-- Navigation bar as a Bootrap Grid Row -->
-    <header class="row p-0">
-        <nav class="navbar navbar-light d-flex flex-row justify-content-between align-items-center flex-nowrap col navbar-expand-lg custom-nav">
+    <header class="row">
+        <nav class="navbar navbar-light d-flex flex-row justify-content-between align-items-center flex-wrap flex-lg-wrap col navbar-expand-lg custom-nav">
 
             <!-- Navbar weather information -->
-            <div class="d-none d-md-flex">
+            <div class="d-none d-lg-flex">
                 <p class="current-weather">Rainy</p>
                 <p class="current-city">Bogota</p>
             </div>
@@ -32,10 +32,10 @@
 
 
             <!-- Navbar Brand -->
-            <a class="navbar-brand" href="https://www.newsweek.com/"><img src="img/logo-complete.png" alt="Logo" class="custom-nav-logo"></a>
+            <a class="navbar-brand pl-3 w-25" href="https://www.newsweek.com/"><img src="img/logo-complete.png" alt="Logo" class="w-100"></a>
 
             <!-- Navbar buttons -->
-            <div class="navbar-buttons d-flex flex-row">
+            <div class="navbar-buttons d-flex flex-row justify-content-md-end">
                 <button class="btn btn-sm custom-navbar-login text-white">LOGIN</button>
                 <button class="btn btn-sm custom-navbar-subscribe bg-white">SUBSCRIBE</button>
             </div
@@ -48,7 +48,7 @@
 
             <!-- Navbar links that will collapse -->
             <div class="collapse navbar-collapse" id="navbarHeaderLinks">
-                <ul>
+                <ul class="d-flex flex-row justify-content-between">
                     <li><a href="#" class="navbar-link">U.S.</a></li>
                     <li><a href="#" class="navbar-link">World</a></li>
                     <li><a href="#" class="navbar-link">Business</a></li>
