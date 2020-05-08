@@ -44,3 +44,16 @@
   /* margin-top: -1.5rem;
   margin-right: -1.5rem; */
 }
+
+.navbar-link {
+  white-space: nowrap;
+}
+
+.navbar-date {
+  color:white;
+  font-weight: 100;
+}
+
+.custom-nav-bar-top-left {
+  margin-right: -5rem;
+}

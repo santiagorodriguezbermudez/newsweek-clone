@@ -14,25 +14,26 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
 </head>
 <body class="container-fluid main-content">
 
     <!-- Navigation bar as a Bootrap Grid Row -->
     <header class="row">
-        <nav class="p-0 navbar navbar-light col-12 navbar-expand-lg">
+        <nav class="p-0 navbar navbar-light col-12 navbar-expand-lg m-auto">
             
-            <div class="inner-navbar-container row m-0 p-0">
+            <div class="inner-navbar-container row m-auto p-0">
 
-                <div class="custom-navbar-row-top col-12 d-flex flex-row justify-content-between align-items-center">
-                    <!-- Navbar weather information -->
-                    <div class="d-none d-lg-flex">
-                        <p class="current-weather">Rainy</p>
-                        <p class="current-city">Bogota</p>
+                <div class="custom-navbar-row-top col-12 d-flex flex-row justify-content-between align-items-center py-4">
+                    
+                    <div class="custom-nav-bar-top-left d-none d-lg-flex flex-column align-items-start justify-content-start">
+                        <!-- Navbar weather information -->
+                        <img class="w-50" src="/img/navbar-weather.png" alt="navbar-weather-img">
+
+                        <!-- Navbar date -->
+                        <div class="navbar-date" id="date"></div>
                     </div>
-                    
-                    <!-- Navbar date -->
-                    <div class="d-none d-lg-flex navbar-date">Today</div>
-                    
                     
                     <!-- Navbar Brand -->
                     <a class="navbar-brand pl-3 w-25" href="https://www.newsweek.com/"><img src="img/logo-complete.png" alt="Logo" class="w-100"></a>
@@ -64,7 +65,7 @@
                         <li><a href="#" class="navbar-link px-3 border-right">The Debate</a></li>
                         <li><a href="#" class="navbar-link px-3 border-right">Vantage</a></li>
                         <li><a href="#" class="navbar-link px-3">Weather</a></li>
-                        <li><a href="#" class="navbar-link px-3"><input type="text" class="nav-bar-search w-70 border-0" placeholder="Search"></a></li>
+                        <li><a href="#" class="navbar-link px-3"><input type="text" class="nav-bar-search w-50 border-0" placeholder="Search"></a></li>
                         <li class="d-none d-lg-block align-self-stretch custom-nav-detail"><img src="/img/navbar-detail.png" alt="navbar-detail"></li>
                     </ul>
                 </div>
@@ -78,4 +79,14 @@
     
 
 </body>
+    <!-- Update current date -->
+    <script>
+        n =  new Date();
+        y = n.getFullYear();
+        months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+        m = months[n.getMonth()];
+        days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
+        d = days[n.getDay()];
+        document.getElementById("date").innerHTML = d + ", " + m + " " + n.getDate() + ", " + y;
+    </script>
 </html>
