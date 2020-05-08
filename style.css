@@ -15,43 +15,16 @@
 
 .custom-navbar-subscribe {
   color: #f72210;
-  font-weight: bold;
-}
-
-.custom-navbar-login {
-  font-weight: bold;
-}
-
-.custom-navbar-toggler {
-  border: none;
-}
-
-.custom-navbar-links-container {
-  background-color: white;
-  width:100%;
-}
-
-.navbar-link {
-  text-decoration: none;
-  font-weight: bold;
-  color: black;
 }
 
 .custom-nav-detail {
   position: relative;
   bottom: 1.5rem;
   z-index: 0;
-  /* margin-top: -1.5rem;
-  margin-right: -1.5rem; */
 }
 
 .navbar-link {
   white-space: nowrap;
-}
-
-.navbar-date {
-  color:white;
-  font-weight: 100;
 }
 
 .custom-nav-bar-top-left {
