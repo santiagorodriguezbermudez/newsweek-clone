@@ -51,11 +51,26 @@
 
 .story-cta {
   color: #f72210;
-  position: relative;
-  top: 13rem;
+  position: absolute;
+  top: 11rem;
   opacity: 0.8;
 }
 
 .top-story-cta {
   top: 1.9rem;
+}
+
+.opinion-title {
+  font-size: 0.9rem;
+  color: black;
+}
+
+.opinion-title:hover {
+  color: #f72210;
+  text-decoration: none;
+}
+
+.opinion-author {
+  color: #a6a6a6;
+  font-size: 0.7rem;
 }
