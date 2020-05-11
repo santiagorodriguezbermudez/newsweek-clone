@@ -52,12 +52,13 @@
 .story-cta {
   color: #f72210;
   position: absolute;
-  top: 11rem;
+  left: 0;
+  bottom: 0;
   opacity: 0.8;
 }
 
 .top-story-cta {
-  top: 1.9rem;
+  top: 0.01rem;
 }
 
 .opinion-title {
