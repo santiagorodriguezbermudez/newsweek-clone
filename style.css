@@ -117,3 +117,7 @@
 .debate-topic {
   border-width: 0.2rem;
 }
+
+.subscription {
+  background-color: lightgrey;
+}
