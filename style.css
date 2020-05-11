@@ -101,3 +101,19 @@
   font-size: 0.9rem;
   line-height: 1.3rem;
 }
+
+.debate-title {
+  font-size: 0.9rem;
+  line-height: 1.1rem;
+  color: black;  
+}
+
+.debate-author {
+  position: relative;
+  bottom: 2.5rem;
+  background-color: transparent;
+}
+
+.debate-topic {
+  border-width: 0.2rem;
+}
