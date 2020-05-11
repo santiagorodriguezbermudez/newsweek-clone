@@ -1,5 +1,5 @@
 /* ------------------ All Document -------------------- */
-.main-content{
+.all-content{
   font-family: "Roboto Condensed", sans-serif;
   margin: 0 auto;
   padding: 0;
@@ -30,5 +30,32 @@
   margin-right: -5rem;
 }
 
+/* ------------------ Navigation -------------------- */
+.section-title {
+  color: #a6a6a6;
+}
 
+.story-title {
+  font-size: 1.2rem;  
+}
 
+.story-title:hover {
+  text-decoration-color: #f72210;
+}
+
+.story-text {
+  font-size: 0.9rem;
+  color: #333;
+  line-height: 1.1rem;
+}
+
+.story-cta {
+  color: #f72210;
+  position: relative;
+  top: 13rem;
+  opacity: 0.8;
+}
+
+.top-story-cta {
+  top: 1.9rem;
+}
