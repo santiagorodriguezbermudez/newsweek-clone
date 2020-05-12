@@ -121,3 +121,21 @@
 .subscription {
   background-color: lightgrey;
 }
+
+/* ------------------ Magazine Section -------------------- */
+.magazine-button-a {
+  background-color: #f72210;
+  color: white;
+}
+
+.magazine-button-b {
+  background-color: white;
+  color: #f72210;
+}
+
+.magazine-button-c {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  opacity: 0.8;
+}
