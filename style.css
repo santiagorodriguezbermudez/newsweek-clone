@@ -1,7 +1,6 @@
 /* ------------------ All Document -------------------- */
 .all-content {
   font-family: "Roboto Condensed", sans-serif;
-  margin: 0 auto;
   padding: 0;
   max-width: 1310px;
   position: relative;
@@ -10,7 +9,6 @@
 /* ------------------ Navigation -------------------- */
 .custom-navbar-row-top {
   background-color: #f72210;
-  z-index: 1;
 }
 
 .custom-navbar-subscribe {
@@ -19,7 +17,7 @@
 
 .custom-nav-detail {
   position: relative;
-  bottom: 1.5rem;
+  bottom: 1.45rem;
   z-index: 0;
 }
 
@@ -29,6 +27,11 @@
 
 .custom-nav-bar-top-left {
   margin-right: -5rem;
+}
+
+.navbar-button {
+  font-size: 1.2rem;
+  letter-spacing: -0.1rem;
 }
 
 /* ------------------ Main Section -------------------- */
