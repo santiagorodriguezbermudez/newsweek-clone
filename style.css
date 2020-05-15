@@ -156,6 +156,41 @@
   width: 95px;
 }
 
+/* ------------------ Subscribe section -------------------- */
+.custom-newsletter-subscribe {
+  color: #fff;
+  background-color: #f72210;
+  width: 40%;
+}
+
+.newsletter-main-img {
+  position: absolute;
+  top: 15px;
+  left: 85px;
+}
+
+.newsletter-images {
+  margin-right: 20%;
+}
+
+.subscribe {
+  background-color: #f4f5f6;
+}
+
+.newsletter {
+  background-color: white;
+  border: solid 1px #f4f5f6;
+  height: 93%;
+}
+
+.newsletter-bg-images {
+  background-image: none;
+}
+
+.newsletter-cta {
+  overflow: hidden;
+}
+
 /* -------------------------------------- Article Section ----------------------------------------------- */
 @media (min-width: 1024px) {
   .custom-sticky {
@@ -163,5 +198,12 @@
     position: sticky;
     bottom: 1rem;
     align-self: flex-end;
+  }
+
+  .newsletter-bg-images {
+    background: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5") center center / cover no-repeat;
+    width: 200%;
+    max-width: 191px;
+
   }
 }
