@@ -123,13 +123,6 @@
   background-color: lightgrey;
 }
 
-.custom-sticky {
-  position: -webkit-sticky;
-  position: sticky;
-  bottom: 1rem;
-  align-self: flex-end;
-}
-
 /* ------------------ Magazine Section -------------------- */
 .magazine-button-a {
   background-color: #f72210;
@@ -146,4 +139,29 @@
   left: 0;
   bottom: 0;
   opacity: 0.8;
+}
+
+/* ------------------ Article Section -------------------- */
+.custom-newsweek-articles-header {
+  color: #f72210;
+}
+
+.custom-size-img-first {
+  height: 63.41px;
+  width: 95px;
+}
+
+.custom-size-img-secondary {
+  height: 95px;
+  width: 95px;
+}
+
+/* -------------------------------------- Article Section ----------------------------------------------- */
+@media (min-width: 1024px) {
+  .custom-sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 1rem;
+    align-self: flex-end;
+  }
 }
