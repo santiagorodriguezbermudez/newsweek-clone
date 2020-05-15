@@ -4,6 +4,7 @@
   margin: 0 auto;
   padding: 0;
   max-width: 1310px;
+  position: relative;
 }
 
 /* ------------------ Navigation -------------------- */
@@ -120,6 +121,13 @@
 
 .subscription {
   background-color: lightgrey;
+}
+
+.custom-sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 1rem;
+  align-self: flex-end;
 }
 
 /* ------------------ Magazine Section -------------------- */
