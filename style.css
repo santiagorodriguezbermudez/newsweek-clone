@@ -196,6 +196,21 @@
   width: 20%;
 }
 
+.footer-links {
+  margin: 0.5% 0;
+}
+
+.footer-links,
+.footer-links a {
+  color: #a6a6a6;
+  line-height: 1.5;
+}
+
+.footer-links a:hover {
+  color: black;
+  text-decoration: none;
+}
+
 /* -------------------------------------- Media Queries ----------------------------------------------- */
 @media (min-width: 1024px) {
   .custom-sticky {
