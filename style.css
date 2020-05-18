@@ -219,7 +219,7 @@
 
 /* ------------------ Footer section -------------------- */
 .footer-logo {
-  width: 20%;
+  height: 50px;
 }
 
 .footer-links {
@@ -235,6 +235,10 @@
 .footer-links a:hover {
   color: black;
   text-decoration: none;
+}
+
+.footer-top-copyright {
+  line-height: 3rem;
 }
 
 /* -------------------------------------- Media Queries ----------------------------------------------- */
