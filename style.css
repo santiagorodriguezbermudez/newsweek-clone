@@ -16,6 +16,10 @@
   color: #f72210;
 }
 
+.navbar-links-lg a:hover {
+
+}
+
 .custom-nav-detail {
   position: absolute;
   right: 0;
@@ -25,6 +29,12 @@
 
 .navbar-link {
   white-space: nowrap;
+  color: #333;
+}
+
+.navbar-link:hover {
+  color: #f72210;
+  text-decoration: none;
 }
 
 .custom-nav-bar-top-left {
@@ -63,7 +73,7 @@
 }
 
 .story-title:hover {
-  text-decoration-color: #f72210;
+  text-decoration: underline #f72210;
 }
 
 .story-text {
@@ -143,6 +153,15 @@
 
 .subscription {
   background-color: lightgrey;
+}
+
+.latest-news-titles {
+  color: #333;
+}
+
+.latest-news-titles:hover {
+  color: #f72210;
+  text-decoration: none;
 }
 
 /* ------------------ Magazine Section -------------------- */
