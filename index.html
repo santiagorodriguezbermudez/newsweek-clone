@@ -26,30 +26,29 @@
 <body class="container-fluid all-content">
 
     <!-- Navigation bar as a Bootrap Grid Row -->
-    
-    <nav class="row sticky-top mb-4 px-0 mx-0 px-0 navbar navbar-light mx-0 py-0">
+    <nav class="row sticky-top navbar navbar-light mb-4 mx-0 p-0">
             
-        <div class="custom-navbar-row-top col-12 d-flex flex-row justify-content-between align-items-center px-4 py-1 position-relative">
-            
-            <div class="custom-nav-bar-top-left d-none d-lg-flex flex-column align-items-start justify-content-start">
-                <!-- Navbar weather information -->
-                <img class="w-50" src="/img/navbar-weather.png" alt="navbar-weather-img">
-
-                <!-- Navbar date -->
-                <div class="text-white font-weight-100" id="date"></div>
-            </div>
+        <div class="custom-navbar-row-top  col-12 d-flex flex-row justify-content-between align-items-center p-2 position-relative">
             
             <!-- Navbar Brand -->
-            <a class="navbar-brand pl-3" href="https://www.newsweek.com/"><img src="img/logo-complete.png" alt="Logo" class="w-100"></a>
+            <a class="navbar-brand d-flex flex-row justify-content-start mx-0 order-1 order-lg-2" href="https://www.newsweek.com/"><img src="img/logo-complete.png" alt="Logo" class="mini-size"></a>
+            
+            <div class="custom-nav-bar-top-left flex-column align-items-start justify-content-start order-2 order-lg-1">
+                <!-- Navbar weather information -->
+                <img class="w-50 d-none d-md-block" src="/img/navbar-weather.png" alt="navbar-weather-img">
+
+                <!-- Navbar date -->
+                <div class="text-white font-weight-100 d-none d-lg-block" id="date"></div>
+            </div>
             
             <!-- Navbar buttons -->
-            <div class="d-flex flex-row justify-content-md-end">
-                <button class="btn btn-sm font-weight-bold text-white navbar-button">LOGIN</button>
-                <button class="btn btn-sm font-weight-bold custom-navbar-subscribe bg-white d-flex align-items-center rounded-0 p-1 navbar-button">SUBSCRIBE <span class="material-icons">navigate_next </span></button>
+            <div class="d-flex flex-row justify-content-md-end order-3 custom-navbar-button">
+                <button class="btn btn-sm font-weight-bold text-white">LOGIN</button>
+                <button class="btn btn-sm font-weight-bold custom-navbar-subscribe bg-white d-flex align-items-center rounded-0 p-1">SUBSCRIBE <span class="material-icons">navigate_next </span></button>
             </div>
                 
             <!-- Navbar collapse button for smaller screens -->
-            <button class="navbar-toggler border-0 d-lg-none" type="button" data-toggle="collapse" data-target="#navbarHeaderLinks" aria-controls="navbarHeaderLinks" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler border-0 d-lg-none order-4" type="button" data-toggle="collapse" data-target="#navbarHeaderLinks" aria-controls="navbarHeaderLinks" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 

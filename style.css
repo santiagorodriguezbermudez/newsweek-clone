@@ -9,6 +9,7 @@
 /* ------------------ Navigation -------------------- */
 .custom-navbar-row-top {
   background-color: #f72210;
+  flex-shrink: 0;
 }
 
 .custom-navbar-subscribe {
@@ -32,7 +33,20 @@
 
 .navbar-button {
   font-size: 1.2rem;
-  letter-spacing: -0.1rem;
+  letter-spacing: 0;
+}
+
+.mini-size {
+  width: 100px;
+  padding-left: 0;
+}
+
+.custom-navbar-button {
+  margin-right: -4rem;
+}
+
+.custom-navbar-button button {
+  font-size: 0.8rem;
 }
 
 /* ------------------ Main Section -------------------- */
@@ -216,6 +230,23 @@
 }
 
 /* -------------------------------------- Media Queries ----------------------------------------------- */
+
+/* ----------------Medium screens------------------------ */
+@media (min-width: 768px) {
+  .mini-size {
+    width: 70%;
+  }
+
+  .custom-navbar-button {
+    margin-right: 0;
+  }
+
+  .custom-navbar-button button {
+    font-size: 1rem;
+  }
+}
+
+/* ----------------Large screens------------------------ */
 @media (min-width: 1024px) {
   .custom-sticky {
     position: -webkit-sticky;
@@ -228,5 +259,9 @@
     background: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5") center center / cover no-repeat;
     width: 200%;
     max-width: 191px;
+  }
+
+  .mini-size {
+    width: 90%;
   }
 }
