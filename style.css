@@ -16,10 +16,6 @@
   color: #f72210;
 }
 
-.navbar-links-lg a:hover {
-
-}
-
 .custom-nav-detail {
   position: absolute;
   right: 0;
@@ -151,6 +147,11 @@
   border-width: 0.2rem;
 }
 
+.debate-profile-pic {
+  height: 64px;
+  width: 72px;
+}
+
 .subscription {
   background-color: lightgrey;
 }
@@ -189,6 +190,7 @@
 /* ------------------ Article Section -------------------- */
 .custom-newsweek-articles-header {
   color: #f72210;
+  font-size: 1.3rem;
 }
 
 .custom-size-img-first {
