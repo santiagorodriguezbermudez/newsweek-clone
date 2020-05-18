@@ -49,6 +49,10 @@
   font-size: 0.8rem;
 }
 
+.first-div {
+  margin: 0 0 1% 0;
+}
+
 /* ------------------ Main Section -------------------- */
 .section-title {
   color: #a6a6a6;
@@ -159,6 +163,10 @@
   opacity: 0.8;
 }
 
+.custom-logo-size {
+  height: 30px;
+}
+
 /* ------------------ Article Section -------------------- */
 .custom-newsweek-articles-header {
   color: #f72210;
@@ -244,10 +252,18 @@
   .custom-navbar-button button {
     font-size: 1rem;
   }
+
+  .custom-sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 1rem;
+    align-self: flex-end;
+  }
 }
 
 /* ----------------Large screens------------------------ */
 @media (min-width: 1024px) {
+  .custom-sticky-a,
   .custom-sticky {
     position: -webkit-sticky;
     position: sticky;
