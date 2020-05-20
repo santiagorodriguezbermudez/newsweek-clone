@@ -2,7 +2,7 @@
 
 > Cloning [this](https://www.newsweek.com/) page from Newsweek as part of Microverse Main Curriculum to learn Bootstrap framework.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./img/app_screenshot.png)
 
 Use bootstrap properly to clone the Newsweek home page and mimick its layout even with different screen sizes.
 
@@ -14,7 +14,7 @@ Use bootstrap properly to clone the Newsweek home page and mimick its layout eve
 
 ## Live Demo
 
-[Not ready yet](#)
+[Live Version](https://raw.githack.com/santiagorodriguezbermudez/newsweek-clone/feature-homepage/index.html)
 
 ## Authors
 

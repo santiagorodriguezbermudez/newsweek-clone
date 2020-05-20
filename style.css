@@ -1,0 +1,309 @@
+/* ------------------ All Document -------------------- */
+.all-content {
+  font-family: "Roboto Condensed", sans-serif;
+  padding: 0;
+  max-width: 1310px;
+  position: relative;
+}
+
+/* ------------------ Navigation -------------------- */
+.custom-navbar-row-top {
+  background-color: #f72210;
+  flex-shrink: 0;
+}
+
+.custom-navbar-subscribe {
+  color: #f72210;
+}
+
+.custom-nav-detail {
+  position: absolute;
+  right: 0;
+  bottom: -28px;
+  z-index: 2;
+}
+
+.navbar-link {
+  white-space: nowrap;
+  color: #333;
+}
+
+.navbar-link:hover {
+  color: #f72210;
+  text-decoration: none;
+}
+
+.custom-nav-bar-top-left {
+  margin-right: -5rem;
+}
+
+.navbar-button {
+  font-size: 1.2rem;
+  letter-spacing: 0;
+}
+
+.mini-size {
+  width: 100px;
+  padding-left: 0;
+}
+
+.custom-navbar-button {
+  margin-right: -4rem;
+}
+
+.custom-navbar-button button {
+  font-size: 0.8rem;
+}
+
+.first-div {
+  margin: 0 0 1% 0;
+}
+
+/* ------------------ Main Section -------------------- */
+.section-title {
+  color: #a6a6a6;
+}
+
+.story-title {
+  font-size: 1.2rem;
+}
+
+.story-title:hover {
+  text-decoration: underline #f72210;
+}
+
+.story-text {
+  font-size: 0.9rem;
+  color: #333;
+  line-height: 1.1rem;
+}
+
+.story-cta {
+  color: #f72210;
+  position: absolute;
+  left: 0;
+  bottom: 0.1rem;
+  opacity: 0.8;
+}
+
+.top-story-cta {
+  top: 0.01rem;
+}
+
+.opinion-title {
+  font-size: 0.9rem;
+  color: black;
+}
+
+.opinion-title:hover {
+  color: #f72210;
+  text-decoration: none;
+}
+
+.opinion-author {
+  color: #a6a6a6;
+  font-size: 0.7rem;
+}
+
+.heroes-cta {
+  color: black;
+  position: absolute;
+  left: 0;
+  bottom: 0.1rem;
+  opacity: 0.8;
+  background-color: #c1d4d7;
+}
+
+.heroes-text {
+  font-size: 0.9rem;
+  color: #a6a6a6;
+  line-height: 1.1rem;
+}
+
+.heroes-title {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
+
+.more-stories-text {
+  color: #a6a6a6;
+  font-size: 0.9rem;
+  line-height: 1.3rem;
+}
+
+.debate-title {
+  font-size: 0.9rem;
+  line-height: 1.1rem;
+  color: black;
+}
+
+.debate-author {
+  position: relative;
+  bottom: 2.5rem;
+  background-color: transparent;
+}
+
+.debate-topic {
+  border-width: 0.2rem;
+}
+
+.debate-profile-pic {
+  height: 64px;
+  width: 72px;
+}
+
+.subscription {
+  background-color: lightgrey;
+}
+
+.latest-news-titles {
+  color: #333;
+}
+
+.latest-news-titles:hover {
+  color: #f72210;
+  text-decoration: none;
+}
+
+/* ------------------ Magazine Section -------------------- */
+.magazine-button-a {
+  background-color: #f72210;
+  color: white;
+}
+
+.magazine-button-b {
+  background-color: white;
+  color: #f72210;
+}
+
+.magazine-button-c {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  opacity: 0.8;
+}
+
+.custom-logo-size {
+  height: 30px;
+}
+
+/* ------------------ Article Section -------------------- */
+.custom-newsweek-articles-header {
+  color: #f72210;
+  font-size: 1.3rem;
+}
+
+.custom-size-img-first {
+  height: 63.41px;
+  width: 95px;
+}
+
+.custom-size-img-secondary {
+  height: 95px;
+  width: 95px;
+}
+
+/* ------------------ Subscribe section -------------------- */
+.custom-newsletter-subscribe {
+  color: #fff;
+  background-color: #f72210;
+  width: 50%;
+}
+
+.newsletter-main-img {
+  position: absolute;
+  top: 15px;
+  left: 85px;
+}
+
+.newsletter-images {
+  margin-right: 20%;
+}
+
+.subscribe {
+  background-color: #f4f5f6;
+}
+
+.newsletter {
+  background-color: white;
+  border: solid 1px #f4f5f6;
+  height: 93%;
+}
+
+.newsletter-bg-images {
+  background-image: none;
+}
+
+.newsletter-cta {
+  overflow: hidden;
+}
+
+/* ------------------ Footer section -------------------- */
+.footer-logo {
+  height: 50px;
+}
+
+.footer-links {
+  margin: 0.5% 0;
+}
+
+.footer-links,
+.footer-links a {
+  color: #a6a6a6;
+  line-height: 1.5;
+}
+
+.footer-links a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.footer-top-copyright {
+  line-height: 3rem;
+}
+
+/* -------------------------------------- Media Queries ----------------------------------------------- */
+
+/* ----------------Medium screens------------------------ */
+@media (min-width: 768px) {
+  .mini-size {
+    width: 70%;
+  }
+
+  .custom-navbar-button {
+    margin-right: 0;
+  }
+
+  .custom-navbar-button button {
+    font-size: 1rem;
+  }
+
+  .custom-sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 1rem;
+    align-self: flex-end;
+  }
+}
+
+/* ----------------Large screens------------------------ */
+@media (min-width: 1024px) {
+  .custom-sticky-a,
+  .custom-sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 1rem;
+    align-self: flex-end;
+  }
+
+  .newsletter-bg-images {
+    background: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5") center center / cover no-repeat;
+    width: 200%;
+    max-width: 191px;
+    margin-right: 5%;
+  }
+
+  .mini-size {
+    width: 90%;
+  }
+}
